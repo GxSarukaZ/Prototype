@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "prototype",
+  "version": "${version}",
+
+  "name": "Prototype Mod",
+  "description": "This is a idea from prototype game(Prototype 2 Coming-Soon)!",
+  "authors": [
+    "NamoZDizeX!"
+  ],
+  "contact": {
+    "homepage": "https://github.com/GxSarukaZ",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/prototype/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.namozdizex.prototype.PrototypeMod"
+    ]
+  },
+  "mixins": [
+    "prototype.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
