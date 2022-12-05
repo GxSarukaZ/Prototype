@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "prototype:block/blacklight_virus_block_top",
+    "side": "prototype:block/blacklight_virus_block"
+  }
+}

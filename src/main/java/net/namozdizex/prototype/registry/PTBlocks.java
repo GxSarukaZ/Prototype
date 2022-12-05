@@ -8,6 +8,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.LightningRodBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
@@ -17,10 +18,18 @@ import net.namozdizex.prototype.PrototypeMod;
 public class PTBlocks {
 
     public static final Block BLACKLIGHT_VIRUS_BLOCK = new Block(BlockBehaviour.Properties.of(Material.WEB).sound(SoundType.SLIME_BLOCK).lightLevel(state -> 5).requiresCorrectToolForDrops().strength(25.5F, 45.5F));
+    public static final Block OXIDIZED_BLACKLIGHT_LIGHTNING_ROD = new LightningRodBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.COPPER).requiresCorrectToolForDrops().strength(2.5F, 45F).noCollission());
+    public static final Block BLOODY_LIGHTNING_ROD = new LightningRodBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.COPPER).sound(SoundType.SLIME_BLOCK).requiresCorrectToolForDrops().strength(2.5F,45F).noCollission());
+    public static final Block EXPOSED_BLACKLIGHT_LIGHTNING_ROD = new LightningRodBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.COPPER).sound(SoundType.SLIME_BLOCK).requiresCorrectToolForDrops().strength(2.5F,45F).noCollission());
+    public static final Block WEATHERED_BLACKLIGHT_LIGHTNING_ROD = new LightningRodBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.COPPER).sound(SoundType.SLIME_BLOCK).requiresCorrectToolForDrops().strength(2.5F,45F).noCollission());
 
     public static void init()
     {
         register("blacklight_virus_block", BLACKLIGHT_VIRUS_BLOCK, new Item.Properties().tab(PrototypeMod.TAB));
+        register("oxidized_blacklight_lightning_rod", OXIDIZED_BLACKLIGHT_LIGHTNING_ROD, new Item.Properties().tab(PrototypeMod.TAB));
+        register("bloody_lightning_rod", BLOODY_LIGHTNING_ROD, new Item.Properties().tab(PrototypeMod.TAB));
+        register("exposed_blacklight_lightning_rod", EXPOSED_BLACKLIGHT_LIGHTNING_ROD, new Item.Properties().tab(PrototypeMod.TAB));
+        register("weathered_blacklight_lightning_rod", WEATHERED_BLACKLIGHT_LIGHTNING_ROD, new Item.Properties().tab(PrototypeMod.TAB));
     }
 
     public static void register(String key, Block block, Object o)

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "prototype:block/blacklight_virus_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "prototype:block/blacklight_virus_block"
+    },
+    "axis=z": {
+      "model": "prototype:block/blacklight_virus_block",
+      "x": 90
+    }
+  }
+}
