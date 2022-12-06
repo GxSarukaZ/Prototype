@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.namozdizex.prototype.PrototypeMod"
+    ],
+    "client": [
+      "net.namozdizex.prototype.PrototypeModClient"
     ]
   },
   "mixins": [

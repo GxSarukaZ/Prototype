@@ -1,4 +1,11 @@
 {
-  "": "",
-  "": ""
+  "block.prototype.blacklight_virus_block": "Blacklight Virus Block",
+  "block.prototype.exposed_blacklight_lightning_rod": "Exposed Blacklight Lightning Rod",
+  "block.prototype.weathered_blacklight_lightning_rod": "Weathered Blacklight Lightning Rod",
+  "block.prototype.oxidized_blacklight_lightning_rod": "Oxidized Blacklight Lightning Rod",
+  "block.prototype.bloody_blacklight_lightning_rod": "Bloody Lightning Rod",
+
+  "item.prototype.mercer_blade": "Mercer Blade",
+  "item.prototype.mercer_claw": "Mercer Claw",
+  "item.prototype.mercer_chain": "Mercer Chain"
 }

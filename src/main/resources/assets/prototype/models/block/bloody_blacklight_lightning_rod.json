@@ -12,8 +12,8 @@
   },
   "ambientocclusion": false,
   "textures": {
-    "texture": "prototype:block/bloody_blacklight_lightning_rod",
-    "particle": "prototype:block/bloody_blacklight_lightning_rod"
+    "texture": "prototype:block/bloody_lightning_rod",
+    "particle": "prototype:block/bloody_lightning_rod"
   },
   "elements": [
     {   "from": [ 6, 12, 6 ],
